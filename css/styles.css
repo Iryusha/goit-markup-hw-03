@@ -38,6 +38,9 @@ img {
     min-width: 100%;
     height: auto;
 }
+a {
+    display: block;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -248,10 +251,10 @@ img {
 } 
 .we-do-list {
     display: flex;
-  flex-basis: calc(100% / 3 - 90px);
-  flex-wrap: wrap;
-  margin-left: -30px;
- 
+    flex-basis: calc(100% / 3 - 90px);
+    /* flex-wrap: wrap;
+    margin-left: -30px;
+  */
 }  
 .we-do {
     font-family: Roboto;
@@ -328,6 +331,11 @@ img {
     margin-top: 10px;
 }
 /* FOOTER */
+.logo-foot {
+    margin-bottom: 20px;
+    height: 31px;
+    width: 145px;
+}
 .adress {
     font-family: Roboto;
     font-style: normal;
@@ -366,9 +374,9 @@ img {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    margin-right: 93px;
+    /* margin-right: 93px;
     margin-bottom: 25px;
-    padding-top: 60px;
+    padding-top: 60px; */
 }
 .footer-item {
         display: block;
@@ -396,9 +404,9 @@ img {
     cursor: pointer;
     display: block;
     padding: 6px, 22px;
-    /* height: 38px; */
+    height: 38px;
 }
-.menu-btn:not(:first-child)
+
 
 .menu {
     padding-top: 94px;
@@ -426,12 +434,16 @@ img {
 }
 .container-nav {
     display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 .menu-title:not(:first-child) {
     margin-left: 30px;
 }
+/* .menu-title: {
+    padding-top: 94px;
+    padding-bottom: 94px;
+} */
 .card{
     padding: 20px 24px;
     border: 1px solid #eeeeee;
@@ -441,8 +453,8 @@ img {
 .galary-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+    /* margin-left: -30px;
+    margin-top: -30px; */
 }
 .galary-item {
     flex-basis: calc(100% / 3 - 30px);
